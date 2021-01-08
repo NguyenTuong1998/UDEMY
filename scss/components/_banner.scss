@@ -1,0 +1,30 @@
+.banner {
+    text-align: center;
+    background-color: #29303b;
+    color: #fff;
+    .icon {
+        display: flex;
+        justify-content: space-around;
+        i {
+            padding: 2.5rem 0;
+            font-size: 1.3rem;
+        }
+    }
+    .text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .test {
+            margin: 1.5rem 8rem;
+            h1 {
+                font-size: 1.7rem;
+            }
+            p {
+                opacity: 0.8;
+            }
+            button {
+                font-weight: 600;
+            }
+        }
+    }
+}

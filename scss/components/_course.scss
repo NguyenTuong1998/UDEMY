@@ -1,0 +1,52 @@
+.course {
+    margin: 1.5rem 0;
+    .item-text {
+        width: 100%;
+        height: 100%;
+        background-color: #f2f3f5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .text {
+            b {
+                font-weight: 650;
+                font-size: 1.3rem;
+            }
+            p {
+                font-size: 0.8rem !important;
+                opacity: 1 !important;
+            }
+        }
+    }
+    .nav {
+        margin-top: 1rem;
+    }
+    .nav-item {
+        position: relative;
+    }
+    .nav-tabs .nav-link {
+        border: none;
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+        padding: 0.5rem !important;
+        color: #000000;
+        &:hover {
+            color: #003845;
+        }
+        &::after {
+            content: "";
+            height: 0.4rem;
+            width: 0;
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            background: #007791;
+        }
+    }
+    .nav-link.active::after {
+        width: 100%;
+    }
+    @include item();
+    @include owl-nav();
+}

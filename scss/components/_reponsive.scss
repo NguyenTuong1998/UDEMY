@@ -1,0 +1,81 @@
+@media screen and (max-width: 1200px) {
+  header .navbar {
+    .right {
+      display: flex;
+      justify-content: flex-end;
+      .header__right {
+        .navbar-nav {
+          .nav-team {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .channel{
+    .icon{
+      display: none;
+    }
+  }
+  .course{
+      .item-text{
+          display: none;
+      }
+  }
+  .support{
+      display: none;
+  }
+  .banner{
+      i{
+          display: none;
+      }
+      .text{
+          padding: 3rem;
+      }
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      .header__left {
+        .categories {
+          display: none;
+        }
+      }
+    }
+  }
+  .channel{
+      display: none;
+  }
+  .course{
+      .item-text{
+          display: none;
+      }
+  }
+  
+  .feedback .start{
+      .item__1{
+          border-right: none !important;
+          margin-bottom: 2rem;
+      }
+  }
+  
+}
+@media screen and (max-width: 576px) {
+    .feedback{
+        .item-1{
+            border-right: none ;
+        }
+    }
+    
+    footer{
+        .footer-bottom{
+            display: block;
+
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.channel{
+    background: linear-gradient(to right, #7c2052, #de4c53);
+    
+    .col{
+        display: flex;
+        width: calc(100%  / 3);
+        margin: 1rem 0;
+        .icon{
+            font-size: 2rem;
+            color: #ffffff;
+            margin-right: 1rem;            
+        }
+        .text{
+            color: #ffffff;
+            font-size: 1rem;
+        }
+    }
+}

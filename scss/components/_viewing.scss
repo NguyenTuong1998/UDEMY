@@ -1,0 +1,9 @@
+.viewing {
+    padding: 1rem 0;
+    h1 {
+        font-size: 1.2rem;
+        opacity: 0.7;
+    }
+    @include item();
+    @include owl-nav();
+}

@@ -1,0 +1,28 @@
+.support{
+    background-color: #f2f3f5;
+    .col{
+        margin: 1.5rem 0;
+
+        .item{
+            display: flex;
+            border: 1px solid #e8e9eb;
+            background-color: #ffffff;
+            
+            .icon{
+        
+                margin: 1rem 1rem 0 1rem;
+            }
+            .text{
+                margin-top: 1rem;
+                h1{
+                    color: #2a313c;
+                    font-weight: 900;
+                }
+                p{
+                    color: #7a8089;
+                    margin-bottom: 2.5rem;
+                }
+            }
+        }
+    }
+}
