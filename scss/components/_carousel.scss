@@ -1,12 +1,15 @@
-#carousel {
-  background-image: url("./../../img/cover.jpg");
+.carousel {
   height: 500px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
-  display: flex;
-  align-items: center;
-
+  position: relative;
   @include search();
+  img {
+    width: 100%;
+    height: 500px;
+  }
+  .carousel__content {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
